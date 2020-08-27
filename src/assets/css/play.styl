@@ -1,0 +1,74 @@
+.play
+    width 100%
+    height 100%
+    overflow hidden
+    .bg
+        width 100%
+        height 100%
+    .changbi
+        width 96px
+        height 137px
+        background url("https://s3.music.126.net/mobile-new/img/needle-ip6.png?be4ebbeb6befadfcae75ce174e7db862=") no-repeat center center
+        background-size 96px 137px
+        position fixed
+        top 0
+        left 45%
+        z-index 2
+    .changquan
+        width 296px
+        height 296px
+        background url("https://s3.music.126.net/mobile-new/img/disc-ip6.png?69796123ad7cfe95781ea38aac8f2d48=") no-repeat center center
+        background-size 296px 296px
+        position fixed
+        top .6rem
+        left 50%
+        margin-left -1.5rem
+        z-index: 1
+        animation rotate 20s infinite
+        &.stop
+            animation-play-state paused
+        .pic
+            width 1.96rem
+            height 1.96rem
+            border-radius: 50%
+            overflow hidden
+            margin-top .5rem
+            margin-left .5rem
+            img
+                width 1.96rem
+                height 1.96rem
+    .icon-zanting
+        font-size .55rem
+        color #fff
+        position fixed
+        top 1.8rem
+        left 50%
+        transform translateX(-50%)
+        z-index 1
+    .lyric
+        position absolute
+        top 400px
+        width 275px
+        height 60px
+        left 50px
+        overflow hidden
+        ul
+            transition margin-top 0.3s
+            li
+                height .3rem
+                color rgba(255,255,255,.5)
+                text-align center
+                list-style: none
+                line-height: .3rem
+                &.active
+                    color #fff
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+    

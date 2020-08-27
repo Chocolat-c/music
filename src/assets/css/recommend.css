@@ -38,6 +38,11 @@ ul.remd_song {
 }
 .remd_song li p {
     font-size: .13rem;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 } 
 ul.newsong {
     padding-left: 10px;

@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1598524683193'); /* IE9 */
+  src: url('iconfont.eot?t=1598524683193#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPgAAsAAAAACCQAAAOUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEDIM+ATYCJAMMCwgABCAFhG0HOBsGBxHVmyPJfhzkpqxrsv3xTdYcZdH470GAdVWlk54Ve1bg0YOD5Jfgn7bmHKkaFaFKsuc7j/4hD9w0owD443CvzfPA5rMsl7EmjTEx6gKMAwpojckBFmUfyP8wduVFzIYAnAklGVG5am0LjiiMRgIQ3bt0aoNjSomqwQkcJaaSngoxGx1HbYp2iQOz/O+Lj8zCETR0idGyfscq7Sl/4/+mlhz9fzTNXQSs8eYD0AEJJAMKRMtSY2Nk6ElG4qwIVX24CYVAG8v+/7/PVMWmlf7jaSBMGLGuAMRDrwZv/G0KBLyp5UUDzv9XMAFOwBJ4M8J7gEJ3dTWcAg0vH89ht15Zbr+23n1rv/Nm8J07trt37bdvW2/datbWvHCj89TjaMaCLTFiWly7RbsCW893NstpC4w29lbyt/ZONCi3JLY33HljG6TUbat16kLzxqOBtp2g9e0U65IVy7dHz1/fdGP05t0JVrCqceDqvkTb0qMdNsYevZNm33W34MjtZMviw9HzfZtNPewfjrInYcPdJPuyvYkbw+Xoe3p4uH7PlIeHO9w4yW3e0RPqzx8FeScoHXLxC+Jf+G3N8NzsHRoVVkXV/bIHrwK/lR+CP1U72lCIIv1sOMvPSGu1Fhdo+g1/803dpGFaOArBcqJulcialervo51+0dnxokI0REOnxjc+1rBi/Z6O1/rkJO6pPsxuNKqXYjEGVRu2tsnx1UHzNtoK0wufe4RVHzZi7U+H1aRktWFnrN8LT0/vZG5kF80DLeYBKLn6sDmJ1gat8wohYl7wP/ezV8s9k3D//27nEgkH4P82+VP2+69/Q279brdaeRT/dnRRADzssdPFr/N/tEKOBhzv2iTgL7JaZimVY6ikkpk2U/dL2qG/IzqkcxH/LhHAmyf9xUbrWBA4YsSg4UAISByJRipsMui4kA0mHCkDZ5Ko1t8FH/oiEcoJSGQCAIEnu0DDnVMg8eQyUmEfg46Zz2DCU0hwxiZ8RnQhVnRxrsQRCkYN8g9e1WIsDXdB/A3tOwlKcnz8C2n3dpj6Meu/YkEao83+sTOzAUM1wwrmw5QqNKoBFfeOuS3DYMqu1KuaDx2VCAWjBvkHr2oxbn7ucp+/oX0nQTUZFeoX0u6Lh6kfWyCvwtIq41r22T92ZjZgqGZYgR6T6anQyqsFVNy7Hq62DCiXaSvs5xfn51sAOGOUk0ITUigchorLSC/2ghT84QA=') format('woff2'),
+  url('iconfont.woff?t=1598524683193') format('woff'),
+  url('iconfont.ttf?t=1598524683193') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1598524683193#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zanting:before {
+  content: "\e618";
+}
+
+.icon-erji:before {
+  content: "\e64b";
+}
+

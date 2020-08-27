@@ -5,7 +5,7 @@ class Recommend extends Component {
         super()
         this.state = {
             songList: [],
-            newsong: []
+            newsong: [],
         }
     }
     componentDidMount(){
@@ -20,6 +20,9 @@ class Recommend extends Component {
             })
         })
         
+    }
+    play(id){
+        this.props.history.push('/play?id='+ id)
     }
     render() {
         let {songList,newsong} = this.state
@@ -45,14 +48,15 @@ class Recommend extends Component {
                     {
                         newsong.map((item,index) => {
                             return (
-                                <li key={index}>
+                                <li key={index} onClick={this.play.bind(this,item.id)}>
                                     <p>{item.name}</p>
                                     <p>
                                         {
                                             item.song.artists.map((val,i)=>{
-                                                return <span key={i}>{val.name} </span>
-                                            })
+                                                return val.name
+                                            }).join(' / ')
                                         }
+                                         - <span>{item.name}</span>
                                     </p>
                                 </li>
                             )

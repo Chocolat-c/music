@@ -1,0 +1,23 @@
+{
+  "id": "2032247",
+  "name": "react",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "887857",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "5058400",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    }
+  ]
+}

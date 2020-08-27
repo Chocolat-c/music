@@ -36,3 +36,19 @@ input {
     color: #333;
     border-radius: .32rem;
 }
+
+ul.newsong {
+    padding-left: 10px;
+}
+.newsong li {
+    box-sizing: border-box;
+    padding: 6px 0;
+    height: .55rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.newsong li p {
+    font-size: .17rem;
+}
+.newsong li p:nth-child(2) {
+    font-size: .12rem;
+}

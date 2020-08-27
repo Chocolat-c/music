@@ -4,6 +4,7 @@ import Register from "../pages/Register/Register";
 import Recommend from "../pages/Home/Recommend";
 import Hot from "../pages/Home/Hot";
 import Search from "../pages/Home/Search";
+import Play from "../pages/Play/Play";
 
 const routes = [
     {
@@ -36,6 +37,10 @@ const routes = [
     {
         path: '/register',
         component: Register
+    },
+    {
+        path: '/play',
+        component: Play
     },
     {
         path: '/',
